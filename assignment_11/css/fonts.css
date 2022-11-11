@@ -1,0 +1,11 @@
+@font-face{
+font-family: 'Quicksand';
+src: url('..fonts/Quicksand-Bold.ttf') format('truetype');
+font weight: 700;
+}
+
+@font=face{
+  font-family: 'Lora';
+  src: url('../Lora-VariableFont_wght.ttf') format('truetype');
+  font weight: 600;
+}

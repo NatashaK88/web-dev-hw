@@ -1,0 +1,78 @@
+nav {
+    background-color: #6d545d;
+    color: black;
+    padding: 1px;
+    text-align: right;
+    border: 10px #c9c9ee solid;
+}
+#hammer:hover{
+    border: 25px solid #E81C23;
+  }
+
+a visited{
+    color: #C9c9ee;
+    font-size: 45px;
+    font-family: lora;
+    text-decoration-color:#214e34;
+}
+
+div {
+    background-color: #214e34;
+    border: 5px black solid;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    font-family: Quicksand
+    first-letter
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body {
+    background-color: #005e7c;
+    font-family: comic sans ms;
+}
+ul{
+  display: table;
+  margin: 0 auto;
+}
+table{
+  display: table;
+  margin: 0 auto;
+}
+.needed{
+  text-align: center;
+}
+
+#title{
+  font-size: 25px;
+}
+.pallet{
+  background-color: black;
+  color: white;
+}
+
+.dot{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot.one{
+  background-color:#005e7c;
+}
+.dot.two{
+  background-color:#214e34;
+}
+.dot.three{
+  background-color:#c9c9ee;
+}
+.dot.four{
+  background-color: #6d545d;
+}
