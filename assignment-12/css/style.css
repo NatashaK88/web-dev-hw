@@ -1,0 +1,146 @@
+div {
+    background-color: #214e34;
+    border: 5px black solid;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    font-family: Quicksand
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body {
+    background-color: #005e7c;
+    font-family: comic sans ms;
+}
+ul{
+  display: table;
+  margin: 0 auto;
+}
+table{
+  display: table;
+  margin: 0 auto;
+}
+.needed{
+  text-align: center;
+}
+
+#title{
+  font-size: 25px;
+}
+.pallet{
+  background-color: black;
+  color: white;
+}
+
+.dot{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot.one{
+  background-color:#005e7c;
+}
+.dot.two{
+  background-color:#214e34;
+}
+.dot.three{
+  background-color:#c9c9ee;
+}
+.dot.four{
+  background-color: #6d545d;
+}
+
+/* Menu */
+header {
+    position: fixed;
+    top: 0px;
+    background-color: black;
+    margin-top: 0;
+    height: 4em;
+    width: 99%;
+    text-align: right;
+    font-family: Quicksand;
+    padding-right: 3em;
+}
+
+/* Set the layout of the menu: */
+.menu-item {
+    display: inline-block;
+    margin: 1em .2em;
+    min-width: 6em;
+    text-align: center;
+    background-color: #333;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+}
+
+.site-name {
+    color: ##6D545D;
+    margin: 1em .2em;
+    min-width: 6em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    letter-spacing: 0.3em;
+    float: left;
+    font-weight: bold;
+}
+
+/* Style the links: */
+.menu-item a {
+    color: #6D545D;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: #005E7C;
+    color: #333;
+}
+
+/* Add a dropdown feature: */
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin: 0.5em 0 0 -1em;
+    color: #000;
+    background-color: #6D545D;
+    z-index: 1;
+    border-radius: 0em 0em 1em 1em;
+}
+.dropdown-content a {
+    color: #000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style dropdown item display: */
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    min-width: 5.9em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a {
+    color: red;
+    background-color: black;
+}
+
+
+.dropdown:hover{
+    border-radius: 1em 1em 0em 0em;
+}
