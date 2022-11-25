@@ -1,0 +1,118 @@
+div {
+    background-color: #214e34;
+    border: 5px black solid;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    font-family: Quicksand
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body {
+    background-color: #005e7c;
+    font-family: comic sans ms;
+}
+ul{
+  display: table;
+  margin: 0 auto;
+}
+table{
+  display: table;
+  margin: 0 auto;
+}
+
+#title{
+  font-size: 25px;
+}
+
+
+*{
+  box-sizing: border-box;
+
+}
+
+,row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media only screen and (min-width:768px){
+  .col-1 {width: 25%}
+  .col-2 {width: 25%}
+  .col-3 {width: 25%}
+  .col-4 {width: 25%}
+
+}
+
+[class"*" "col-"]{
+  float: left;
+  padding: 15px:
+}
+
+div > img {
+  max-width: 100%;
+}
+
+@media only screen and (max-with: 768px){
+  [class"*""col-"]{
+    width: 100%;
+
+  }
+  div > img {
+    max-width: 100%;
+  }
+
+}
+/* Menu */
+header {
+    position: fixed;
+    top: 0px;
+    background-color: black;
+    margin-top: 0;
+    height: 4em;
+    width: 99%;
+    text-align: right;
+    font-family: Quicksand;
+    padding-right: 3em;
+}
+
+/* Set the layout of the menu: */
+.menu-item {
+    display: inline-block;
+    margin: 1em .2em;
+    min-width: 6em;
+    text-align: center;
+    background-color: #333;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+}
+
+.site-name {
+    color: ##6D545D;
+    margin: 1em .2em;
+    min-width: 6em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    letter-spacing: 0.3em;
+    float: left;
+    font-weight: bold;
+}
+
+/* Style the links: */
+.menu-item a {
+    color: #6D545D;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    background-color: #005E7C;
+    color: #333;
+}
